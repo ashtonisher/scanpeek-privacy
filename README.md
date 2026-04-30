@@ -14,6 +14,7 @@ ScanPeek does not collect or store any personally identifiable information. All 
 |------|----------------|
 | Camera input | On-device only, never stored or transmitted |
 | Scanned content | On-device only, never sent to servers |
+| Gallery images | On-device only, never stored or transmitted |
 | Safe browsing credits | Local storage (SharedPreferences) |
 
 ### Third-party services
@@ -24,6 +25,7 @@ ScanPeek does not collect or store any personally identifiable information. All 
 ### Permissions
 
 - **Camera** — required to scan QR codes
+- **Storage / Media access** — required to load QR code images from the gallery
 - **Internet** — required for Safe Browsing checks and loading ads
 
 ## Files
